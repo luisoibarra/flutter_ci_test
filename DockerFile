@@ -1,0 +1,8 @@
+FROM cirrusci/flutter:latest
+
+RUN mkdir app
+
+WORKDIR /app
+
+COPY . .
+
