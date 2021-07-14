@@ -5,7 +5,7 @@ services:
     network_mode: "host"
     build:
       context: .
-      dockerfile: DockerFile
+      dockerfile: Dockerfile
     volumes:
       - ./:/app
     stdin_open: true # docker run -i
